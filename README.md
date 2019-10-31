@@ -1,6 +1,6 @@
 # StudentOutcomePredictor
-Predicting students final grade with Keras Deep Learning and a comparison of Machine Learning Models
-Understanding the data better with Bayesian Statistics
+- Predicting students final grade with Keras Deep Learning and a comparison of Machine Learning Models
+- Understanding the data better with Bayesian Statistics
 
 # Overview
 1) The dataset obtained from UCI Machine Learning Repository. [original dataset](https://archive.ics.uci.edu/ml/datasets/student+performance)
