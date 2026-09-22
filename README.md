@@ -81,7 +81,10 @@ Every Rhat value falls between 0.9998 and 1.0022 (cell 72).
 
 ## Keras
 
-The Keras experiments did not produce a usable result: the Keras cells in `EDA.ipynb`, `FinalDraftStudentOutcome.ipynb`, `RoughDraft3.ipynb` and `RoughDraft4.ipynb` all end in errors while importing Keras, and the feature matrix that `KerasModels.ipynb` builds in cell 15 still contains the target `G3`, so its near-zero cross-validated MSE (cells 23 to 28) points to target leakage rather than a working model.
+The Keras experiments did not produce a usable result.
+The Keras cells in `EDA.ipynb`, `FinalDraftStudentOutcome.ipynb`, `RoughDraft3.ipynb` and `RoughDraft4.ipynb` all end in errors while importing Keras.
+`KerasModels.ipynb` does run, but the feature matrix it builds in cell 15 still contains the target `G3`.
+Its near-zero cross-validated MSE (cells 23 to 28) comes from that target leakage, not from a working model.
 The notebooks stay in the repo as a record of the attempt.
 
 ## Repository layout
